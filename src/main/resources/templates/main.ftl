@@ -33,7 +33,7 @@
             </form>
         </div>
     </div>
-
+<div class="card-columns">
    <#list messages as message>
    <div class="card my-3" style="width: 18rem;">
             <#if message.filename??>
@@ -51,4 +51,5 @@
    <#else>
    No messages
    </#list>
+</div>
 </@c.page>
